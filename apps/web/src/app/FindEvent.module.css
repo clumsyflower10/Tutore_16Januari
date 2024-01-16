@@ -1,0 +1,46 @@
+.eventSearchContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  /*
+background-color: #f5f5f5; / Example background color /
+border-radius: 8px; / Example border radius */
+}
+
+.searchContainer {
+  flex: 1;
+  padding-right: 20px; /* Adjust the padding as needed */
+}
+
+.searchInput {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.searchButtonEvents {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.headerContainer {
+  flex: 1;
+  text-align: right; /* Align the text to the right */
+}
+
+.headerContainer h1 {
+  font-size: 2rem; /* Example font size /
+    color: #333; / Example font color /
+    / Add additional styling to match the provided image */
+}
+
+.collectmoments {
+  color: orange;
+}

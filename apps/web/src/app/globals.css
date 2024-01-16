@@ -520,3 +520,7 @@ button[type='submit']:hover {
 .signup-submit-button:hover {
   background-color: #3f51b5;
 }
+
+.collectmoments {
+  color: orange;
+}
