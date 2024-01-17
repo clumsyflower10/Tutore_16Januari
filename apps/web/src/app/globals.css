@@ -101,11 +101,13 @@ body {
 /* Responsive Styles for Mobile */
 @media (max-width: 768px) {
   .navbar {
-    justify-content: space-around;
+    flex-direction: column; /* Change the flex direction to column for mobile */
+    align-items: center; /* Center-align the content vertically */
   }
 
   .navbar-brand {
     font-size: 1rem;
+    margin-bottom: 0; /* Add some spacing below the text */
   }
 
   .navbar-buttons,
@@ -120,7 +122,6 @@ body {
   .dropdown-content button {
     font-size: 0.8rem;
     padding: 0.2rem 0.3rem;
-    margin-left: 1px;
     margin-left: 1px; /* Further reduced margin for mobile */
   }
 
@@ -140,6 +141,10 @@ body {
 
   .para1home {
     margin-right: 20px;
+  }
+
+  .navbar-buttons {
+    margin-top: 10px; /* Add spacing above the buttons for mobile */
   }
 }
 
