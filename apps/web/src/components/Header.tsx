@@ -1,10 +1,20 @@
 import React from 'react';
 import Link from 'next/link';
+import Image from 'next/image';
+import Logo from '../assets/logo.png';
 
 export const Header = () => {
   return (
     <div className="navbar">
-      <div className="navbar-brand">eventLive</div>
+      <Link href="/">
+        <Image
+          src={Logo}
+          width={80}
+          height={40}
+          alt="logo"
+          className="logo-image"
+        />
+      </Link>
       <div className="navbar-buttons">
         <button>
           <Link href="/findevents">Find Events</Link>
@@ -37,35 +47,3 @@ export const Header = () => {
 };
 
 export default Header;
-// import React from 'react';
-// import Link from 'next/link';
-
-// export const Header = () => {
-//   return (
-//     <div className="navbar">
-//       <div className="navbar-brand">eventLive</div>
-//       <div className="navbar-buttons">
-//         <button>Find Events</button>
-//         <div className="dropdown">
-//           <button className="dropbtn">Event Types</button>
-//           <div className="dropdown-content">
-//             <button>Music</button>
-//             <button>Food & Drinks</button>
-//             <button>Arts</button>
-//             <button>Charity</button>
-//             <button>Festivals</button>
-//             <button>Retails</button>
-//           </div>
-//         </div>
-//         <button>Create Events</button>
-
-//         {/* Updated Log In link with legacyBehavior */}
-//         <Link href="/login" legacyBehavior>
-//           <a className="login-button">Log In</a>
-//         </Link>
-
-//         <button>Sign Up</button>
-//       </div>
-//     </div>
-//   );
-// };

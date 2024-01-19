@@ -58,3 +58,5 @@ export const Benefits = () => {
     </div>
   );
 };
+
+export default Benefits;

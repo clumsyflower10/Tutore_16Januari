@@ -12,16 +12,13 @@ export const Footer = () => {
               <a href="#">Home</a>
             </li>
             <li>
-              <a href="#">Events</a>
+              <a href="/findevents">Events</a>
             </li>
             <li>
-              <a href="#">About</a>
+              <a href="/about">About</a>
             </li>
             <li>
-              <a href="#">Contact</a>
-            </li>
-            <li>
-              <a href="#">Support</a>
+              <a href="/contact">Contact</a>
             </li>
           </ul>
         </div>
@@ -60,3 +57,5 @@ export const Footer = () => {
     </footer>
   );
 };
+
+export default Footer;
